@@ -6,8 +6,8 @@ The output of this script is a tab delimited file containing a list
 of files found in the designated folder matching the requirements.
 
 NOTE:
-This script is written primarily for Python 2.7 and its behavior in
-environments running Python 3 is untested and not supported
+This script is written primarily for Python 3.6 and its behavior in
+environments running Python 2 is untested and not supported
 
 This script uses the "os" package to allow for easy interaction with the
 OS directory structure - documentation: https://docs.python.org/2/library/os.html
