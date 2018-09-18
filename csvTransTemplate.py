@@ -1,7 +1,14 @@
-# script to turn the K2Campaign#targets.csv files, found at 
-# keplerscience.arc.nasa.gov/K2/docs/Campaigns/C#/K2Campaign#targets.csv or
-# keplerscience.arc.nasa.gov/data/campaigns/c#/K2Campaign#targets.csv
-# and saved locally as c#TargetsGO, to input file for the downloader script
+"""
+    Name: csvTransTemplate.py
+    
+    Script to turn the K2Campaign#targets.csv files, found at
+    keplerscience.arc.nasa.gov/K2/docs/Campaigns/C#/K2Campaign#targets.csv or
+    keplerscience.arc.nasa.gov/data/campaigns/c#/K2Campaign#targets.csv
+    and saved locally as c#TargetsGO, to input file for the downloader script
+
+    Original Author: Lindsey Carboneau
+    Created March 2016
+"""
 
 from sys import version_info
 

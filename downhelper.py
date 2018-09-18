@@ -1,3 +1,15 @@
+"""
+    Name: downhelper.py
+    
+    I have no idea what the goal of this code originally was, but
+    it looks kinda like a timer or something for running k2Downloader.py
+    TODO: if you figure out what any of this is supposed to do, remove this
+          note and replace with an actual explanation and if it's relevant
+
+    Original Author: Lindsey Carboneau
+    Created March 2016
+"""
+
 import os
 import time
 import datetime
