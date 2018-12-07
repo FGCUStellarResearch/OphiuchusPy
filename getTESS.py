@@ -90,7 +90,7 @@ for target in TIClist:
         test = wget.download(url, out=outPath)
         if (os.path.exists(test)):
             print("\nGot target: " + target)
-            continue
+            pass
     except:
         pass
     try:
@@ -104,7 +104,7 @@ for target in TIClist:
     except:
         pass
 
-    if ~(os.path.isfile(outputFolder + "/" + sector1prefix + targetp + sector1postfix) or 
+    if ~(os.path.isfile(outputFolder + "/" + sector1prefix + targetp + sector1postfix) and 
         os.path.isfile(outputFolder + "/" + sector2prefix + targetp + sector2postfix)):
         print("Could not download target: " +  str(target))
         continue
