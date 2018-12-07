@@ -1,3 +1,13 @@
+"""
+    Name: k2Downloader.py
+    
+    Python code for doing automated K2 data downloads.
+    Uses CSV files as available in the k2_lists folder as inputs
+
+    Original Author: Lindsey Carboneau
+    Created March 2016
+"""
+
 import wget
 # import time	 # see NOTE below - uncomment for funtionality
 # import datetime
